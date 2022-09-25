@@ -1,4 +1,4 @@
-# jewlary-web
+# ID and Class Instruction
 navbar = Navigation bar
 
 navbar-toggler = hamburger button
