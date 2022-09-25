@@ -1,0 +1,245 @@
+body {
+    background-image: url(../image/d.jpg);
+}
+
+/* Navbar */
+/* Top Navbar */
+/* Navigation Bar */
+#logo {
+    margin: 10px 0px;
+}
+
+#logo img {
+    height: 50px;
+    margin: 0 10px;
+}
+
+.navbar-nav li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.navbar-nav a {
+    color: wheat;
+    text-decoration: none;
+}
+
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+    color: wheat;
+    text-decoration: none;
+}
+
+.navbar-nav li a {
+    padding: 15px 26px;
+    border-radius: 20px;
+}
+
+.navbar-nav li a:hover {
+    /* background-color: lightcoral; */
+    margin-top: 0px;
+    background-color: #00000091;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(245, 222, 179, 0.548);
+}
+
+.navbar-nav li a:active {
+    /* background-color: lightcoral; */
+    margin-top: 0px;
+    transition-duration: 10ms;
+    color: black;
+    border-radius: 20px;
+    box-shadow: 0 0 0 black;
+}
+
+.search {
+    padding: .5rem;
+    margin-left: 5rem;
+}
+
+.search input {
+    text-align: center;
+    border-radius: 20px;
+    opacity: 70%;
+}
+
+/* Input part */
+#input {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Left Portion */
+#left {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: #00000091;
+    box-shadow: 0 0 20px 10px black;
+    border-radius: 0rem 2rem 2rem 0rem;
+}
+
+.left_h {
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+#left h1 {
+    font-size: 2rem;
+    color: wheat;
+    text-align: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 4rem;
+}
+
+.left label {
+    color: wheat;
+}
+
+.left select {
+    border-radius: .6rem;
+    opacity: 70%;
+    font-weight: 400;
+}
+
+.left option {
+    background-color: wheat;
+    text-shadow: 0 0 5px black;
+}
+
+/* Right Portion */
+
+/* NavBar */
+.ornament_type {
+    display: flex;
+    justify-content: center;
+    background-color: #00000091;
+    box-shadow: 0 0 20px 10px black;
+    border-radius: 2rem 0rem;
+    color: wheat;
+    padding-left: 1rem;
+}
+
+.ornament_type h1 {
+    margin: 2rem;
+}
+
+/* Form */
+/* Form Body */
+#right {
+    margin: auto;
+    width: 60%;
+}
+
+/* Input Portion */
+.top {
+    display: flex;
+    margin: 0rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    color: wheat;
+    text-shadow: 0 0 5px black;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-top: 1.7rem;
+}
+
+/* Input Part */
+.top input {
+    border-radius: .6rem;
+}
+
+.container_l {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_r {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container_l {
+    padding: 1rem;
+}
+
+.container_r {
+    padding: 1rem;
+}
+
+/* Dropdown */
+.fbox {
+    background-color: white;
+    opacity: 70%;
+    text-align: center;
+    font-weight: 400;
+}
+
+.top option {
+    background-color: wheat;
+}
+
+.top select {
+    border-radius: .6rem;
+}
+
+/* Image */
+.img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.img img {
+    width: 5rem;
+}
+
+/*Summit Button */
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+}
+
+.bottom button {
+    padding: 0.6rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border: none;
+    border-radius: .7rem;
+    background-color: #00000091;
+    box-shadow: 0 0 20px 10px black;
+    color: wheat;
+}
+
+.bottom button:hover {
+    padding: 0.6rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+    border: none;
+    border-radius: .7rem;
+    opacity: 70%;
+    background-color: wheat;
+    color: black;
+    box-shadow: 10px 10px 20px black;
+}
+
+.bottom button:active {
+    background-color: #00000091;
+    box-shadow: 0 0 20px 10px black;
+    color: wheat;
+}
