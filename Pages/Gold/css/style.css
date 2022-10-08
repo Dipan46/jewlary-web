@@ -1,10 +1,25 @@
-body {
+body::before {
+    content: "";
     background-image: url(../image/d.jpg);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 /* Navbar */
 /* Top Navbar */
-/* Navigation Bar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
 #logo {
     margin: 10px 0px;
 }
@@ -12,6 +27,12 @@ body {
 #logo img {
     height: 50px;
     margin: 0 10px;
+}
+
+.collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar-nav li {
@@ -24,15 +45,10 @@ body {
     text-decoration: none;
 }
 
-a:not([href]):not([class]),
-a:not([href]):not([class]):hover {
-    color: wheat;
-    text-decoration: none;
-}
-
 .navbar-nav li a {
     padding: 15px 26px;
     border-radius: 20px;
+    font-size: 1.7rem;
 }
 
 .navbar-nav li a:hover {
@@ -54,7 +70,6 @@ a:not([href]):not([class]):hover {
 
 .search {
     padding: .5rem;
-    margin-left: 5rem;
 }
 
 .search input {
@@ -94,11 +109,12 @@ a:not([href]):not([class]):hover {
 .left {
     display: flex;
     flex-direction: column;
-    margin: 3rem 4rem;
+    margin: 1rem 4rem;
 }
 
 .left label {
     color: wheat;
+    margin: 1rem 0rem;
 }
 
 .left select {
@@ -127,6 +143,7 @@ a:not([href]):not([class]):hover {
 
 .ornament_type h1 {
     margin: 2rem;
+    font-size: 2.5rem;
 }
 
 /* Form */
@@ -186,6 +203,11 @@ a:not([href]):not([class]):hover {
     opacity: 70%;
     text-align: center;
     font-weight: 400;
+    padding: 0.3rem;
+}
+
+.sbox {
+    width: 60%;
 }
 
 .top option {

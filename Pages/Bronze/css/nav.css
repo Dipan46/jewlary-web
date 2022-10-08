@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#logo {
+    margin: auto;
+}
+
+#logo img {
+    width: 5rem;
+    height: 5.5rem;
+}
+
+.search {
+    margin: auto;
+    width: 90%;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.collapse {
+    padding-left: 0;
+    justify-content: space-around;
+}
+
+.bottom button {
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.ornament_type h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}

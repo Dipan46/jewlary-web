@@ -49,6 +49,14 @@
     border-radius: 0rem 0rem;
 }
 
+.left label {
+    margin: auto;
+}
+
+.left select {
+    margin-bottom: 2rem;
+}
+
 .top {
     display: flex;
     margin: 0rem;
@@ -74,6 +82,10 @@
     padding-left: 1rem;
 }
 
+.ornament_type {
+    padding-left: 0px;
+}
+
 .ornament_type h1 {
     margin: 2rem;
     text-align: center;
@@ -87,9 +99,26 @@
     justify-content: center;
 }
 
+.container_l label {
+    text-align: center;
+}
+
 .container_r {
     display: flex;
     flex-direction: column;
     align-items: stretch;
     justify-content: center;
+}
+
+.container_r label {
+    text-align: center;
+}
+
+.sbox {
+    width: 100%;
+}
+
+#right {
+    margin: auto;
+    width: 80%;
 }
