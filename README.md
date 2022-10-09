@@ -1,13 +1,15 @@
 # ID and Class Instruction
 navbar = Navigation bar
 
-navbar-toggler = hamburger button
+navbar-nav = navber items(ul)
 
-navbar-nav/nav-item = navber items
+nav-item = navber items(li)
 
 logo = Company Logo in navigation bar
 
 search = search box in navigation bar
+
+input = Form Section
 
 left = Left input portion(ITEM REGISTRATION)
 
@@ -21,7 +23,7 @@ container_l = left imput portion of form
 
 container_r = right input portion of form
 
-fbox = user input box
+fbox = Dropdown options
 
 img = image preview
 
